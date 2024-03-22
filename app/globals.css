@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+.plant-card {
+  background: linear-gradient(120deg, #d4fc79, #96e6a1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.plant-card:hover {
+  transform: scale(1.05);
+}
